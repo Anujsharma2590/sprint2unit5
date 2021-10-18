@@ -198,5 +198,13 @@
     "description": "libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu pede",
     "is_available": false,
     "price": 638
-  }
+  },
+    {
+      "id": 26,
+      "product_name": "Pepper - Gypsy Pepper",
+      "image_url": "http://dummyimage.com/200x200.bmp/ff4444/ffffff",
+      "description": "libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu pede",
+      "is_available": false,
+      "price": 638
+    }
 ]

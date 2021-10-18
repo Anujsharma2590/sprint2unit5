@@ -3,7 +3,12 @@
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    width: 100%;
+    width: 70%;
     border: 1px solid green;
-    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+
+}
+.navbar-heading{
+    color:red;
 }

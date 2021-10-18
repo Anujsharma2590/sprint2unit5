@@ -13,7 +13,7 @@ export default function Card({
       </div>
       <div className="column2 column">
         <div> {product_name}</div>
-        <div>description: {description}</div>
+        <div >description: {description}</div>
         <div>price: {price}</div>
       </div>
       <div className="column3 column">
