@@ -1,9 +1,10 @@
 import React from 'react'
-
+import './navbar.css'
 export default function Navbar() {
     return (
-        <div>
-            
+        <div className="navbar">
+            <div className="navbar-heading">E-Cart</div>
+            <div>icon</div>
         </div>
     )
 }

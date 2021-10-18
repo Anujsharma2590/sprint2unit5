@@ -1,0 +1,19 @@
+.high-stock{
+background-color: #d5e8d4;
+border: none;
+cursor: pointer;
+text-decoration: none;
+border: 1px solid green;
+padding: 8px 10px;
+border-radius: 5px;
+}
+
+.low-stock{
+background-color: #f8cecc;
+border: none;
+cursor: pointer;
+text-decoration: none;
+border: 1px solid green;
+padding: 8px 10px;
+border-radius: 5px;
+}
