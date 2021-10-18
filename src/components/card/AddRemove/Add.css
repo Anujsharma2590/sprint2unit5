@@ -1,0 +1,12 @@
+.addremove-container{
+    display: flex;
+
+    justify-content: center;
+  
+    
+    
+}
+.addremove-container > button{
+    text-decoration: none;
+    margin: 5px;
+}

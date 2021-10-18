@@ -1,20 +1,20 @@
 import React from 'react'
 import AddRemove from './AddRemove/AddRemove'
 
-export default function Card() {
+export default function Card({id,product_name,image_url,description,is_available,price}) {
     return (
       <div className="Card">
         <div>
           <img
-            src="http://dummyimage.com/200x200.png/dddddd/000000"
-            alt="product"
+            src={image_url}
+            alt="avatar"
           />
         </div>
-        <div>product name</div>
-        <div>description</div>
-        <div>price</div>
-          <AddRemove/>
-        <button>high Stock</button>
+        <div>{product_name}</div>
+            <div>{description}</div>
+        <div>{price}</div>
+        <AddRemove/>
+            <button>{is_available}</button>
       </div>
     );
 }
