@@ -17,3 +17,45 @@ border: 1px solid green;
 padding: 8px 10px;
 border-radius: 5px;
 }
+
+/* card container */
+
+/* .Card{
+    width: 50%;
+} */
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.container > div{
+    flex: 50%;
+    box-shadow: 0 0 0 1px black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
+/* card */
+
+.Card{
+    display: flex;  
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     
+}
