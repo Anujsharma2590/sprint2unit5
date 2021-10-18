@@ -1,10 +1,10 @@
-
+import CardList from './components/card/CardList'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-hello world
+    <CardList />
 
     </div>
   );
