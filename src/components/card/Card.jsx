@@ -8,15 +8,15 @@ export default function Card({
 
   return (
     <div className="Card">
-      <div className="column1">
+      <div className="column1 column">
         <img src={image_url} alt="avatar" />
       </div>
-      <div className="column2">
-        <div>{product_name}</div>
-        <div>{description}</div>
-        <div>{price}</div>
+      <div className="column2 column">
+        <div> {product_name}</div>
+        <div>description: {description}</div>
+        <div>price: {price}</div>
       </div>
-      <div className="column3">
+      <div className="column3 column">
         <AddRemove />
         {is_available ? (
           <button className="high-stock">High Stock</button>
